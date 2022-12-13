@@ -12,7 +12,7 @@ Links to downloaded files
 * [rrnDB-5.6_16S_rRNA.fasta.zip](https://rrndb.umms.med.umich.edu/static/download/rrnDB-5.6_16S_rRNA.fasta.zip)
 * [rrnDB-5.6.tsv.zip](https://rrndb.umms.med.umich.edu/static/download/rrnDB-5.6.tsv.zip)
 
-## Automating the Downloads
+## Automating the Download and Extraction of the file
 
 Automated downloading the last zip file by-
 `wget --directory-prefix=data/ --no-clobber https://rrndb.umms.med.umich.edu/static/download/rrnDB-5.6.tsv.zip`
